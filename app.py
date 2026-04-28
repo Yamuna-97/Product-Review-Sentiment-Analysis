@@ -8,9 +8,7 @@ from collections import Counter
 import re
 
 st.set_page_config(page_title="Product Review Sentiment Analysis", layout="wide")
-
 st.title("📊 Product Review Sentiment Analysis")
-
 uploaded_file = st.file_uploader("Upload PDF with Product Reviews", type=['pdf'])
 
 def extract_text_from_pdf(pdf_file):
